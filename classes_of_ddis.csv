@@ -1,0 +1,61 @@
+﻿class,DDI
+0,The excretion of drug_a can be decreased when combined with drug_b.
+1,The excretion of drug_a can be increased when combined with drug_b.
+2,The excretion of drug_b can be decreased when combined with drug_a.
+3,The metabolism of drug_a can be decreased when combined with drug_b.
+4,The metabolism of drug_a can be increased when combined with drug_b.
+5,The metabolism of drug_b can be decreased when combined with drug_a.
+6,The metabolism of drug_b can be increased when combined with drug_a.
+7,The protein binding of drug_a can be decreased when combined with drug_b.
+8,The risk or severity of Cardiac Arrhythmia can be increased when drug_b is combined with drug_a.
+9,The risk or severity of adverse effects can be increased when drug_a is combined with drug_b.
+10,The risk or severity of adverse effects can be increased when drug_b is combined with drug_a.
+11,The risk or severity of angioedema can be increased when drug_a is combined with drug_b.
+12,The risk or severity of angioedema can be increased when drug_b is combined with drug_a.
+13,The risk or severity of bleeding can be increased when drug_a is combined with drug_b.
+14,The risk or severity of hyperglycemia can be increased when drug_b is combined with drug_a.
+15,The risk or severity of hyperkalemia can be increased when drug_a is combined with drug_b.
+16,The risk or severity of hyperkalemia can be increased when drug_b is combined with drug_a.
+17,The risk or severity of hypoglycemia can be increased when drug_a is combined with drug_b.
+18,The risk or severity of hypoglycemia can be increased when drug_b is combined with drug_a.
+19,The risk or severity of hypotension and orthostatic hypotension can be increased when drug_a is combined with drug_b.
+20,The risk or severity of hypotension can be increased when drug_a is combined with drug_b.
+21,The risk or severity of hypotension can be increased when drug_b is combined with drug_a.
+22,"The risk or severity of hypotension, hyperkalemia, and reduced intravascular volume can be increased when drug_a is combined with drug_b."
+23,The risk or severity of lactic acidosis can be increased when drug_b is combined with drug_a.
+24,The risk or severity of liver damage can be increased when drug_a is combined with drug_b.
+25,The risk or severity of myopathy and rhabdomyolysis can be increased when drug_b is combined with drug_a.
+26,"The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when drug_a is combined with drug_b."
+27,"The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when drug_b is combined with drug_a."
+28,The risk or severity of neutropenia can be increased when drug_a is combined with drug_b.
+29,The risk or severity of orthostatic hypotension and syncope can be increased when drug_a is combined with drug_b.
+30,"The risk or severity of renal failure, hypotension, and hyperkalemia can be increased when drug_a is combined with drug_b."
+31,The risk or severity of rhabdomyolysis can be increased when drug_b is combined with drug_a.
+32,The risk or severity of thrombocytopenia can be increased when drug_a is combined with drug_b.
+33,The risk or severity of weight gain and edema formation can be increased when drug_b is combined with drug_a.
+34,The serum concentration of drug_a can be decreased when it is combined with drug_b.
+35,The serum concentration of drug_a can be increased when it is combined with drug_b.
+36,The serum concentration of drug_b can be decreased when it is combined with drug_a.
+37,The serum concentration of drug_b can be increased when it is combined with drug_a.
+38,The therapeutic efficacy of drug_a can be decreased when used in combination with drug_b.
+39,The therapeutic efficacy of drug_a can be increased when used in combination with drug_b.
+40,The therapeutic efficacy of drug_b can be increased when used in combination with drug_a.
+41,drug_a may decrease the excretion rate of drug_b which could result in a higher serum level.
+42,drug_a may increase the QTc-prolonging activities of drug_b.
+43,drug_a may increase the anticoagulant activities of drug_b.
+44,drug_a may increase the diuretic activities of drug_b.
+45,drug_a may increase the excretion rate of drug_b which could result in a lower serum level and potentially a reduction in efficacy.
+46,drug_a may increase the hepatotoxic activities of drug_b.
+47,drug_a may increase the hypoglycemic activities of drug_b.
+48,drug_a may increase the hypolipidaemic activities of drug_b.
+49,drug_a may increase the hypotensive activities of drug_b.
+50,drug_a may increase the vasodilatory activities of drug_b.
+51,drug_b may decrease the excretion rate of drug_a which could result in a higher serum level.
+52,drug_b may decrease the hypoglycemic activities of drug_a.
+53,drug_b may increase the diuretic activities of drug_a.
+54,drug_b may increase the excretion rate of drug_a which could result in a lower serum level and potentially a reduction in efficacy.
+55,drug_b may increase the hypoglycemic activities of drug_a.
+56,drug_b may increase the hypolipidaemic activities of drug_a.
+57,drug_b may increase the hypotensive activities of drug_a.
+58,drug_b may increase the myopathic rhabdomyolysis activities of drug_a.
+59,drug_b may increase the orthostatic hypotensive activities of drug_a.
