@@ -11,14 +11,14 @@ import numpy as np
 import pickle
 from sklearn import preprocessing
 
-model_path = r"C:\Users\Henry Kha\Downloads\app\best_xgb.sav"
+model_path = "best_xgb.sav"
 def loading_model(model_path=model_path):
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     return model
 model = loading_model()
 
-datapath = r"C:\Users\Henry Kha\Downloads\app\noddpairname.csv"
+datapath = "noddpairname.csv"
 
 df = pd.read_csv(datapath)
 
@@ -27,7 +27,7 @@ ddp_encoder = preprocessing.LabelEncoder()
 ddp_encoder.fit(df['DDPairs'])
 df['DDPairs']= ddp_encoder.transform(df['DDPairs'])  
 
-interpretation = r"C:\Users\Henry Kha\Downloads\app\classes_of_ddis.csv"
+interpretation = "classes_of_ddis.csv"
 pred_interpretation = pd.read_csv(interpretation)
 classes_encoder = preprocessing.LabelEncoder()
 classes_encoder.fit(pred_interpretation['DDI'])
@@ -41,7 +41,7 @@ def print_output(interpretation=interpretation):
     return printed_output
 
 
-b = tuple(pd.read_csv(r"C:\Users\Henry Kha\Downloads\app\drugs.csv")["interacting"].values.tolist())
+b = tuple(pd.read_csv("drugs.csv")["interacting"].values.tolist())
 
 def show_predict_page():
     st.title("Drug-Drug-Interaction Recommendation")
